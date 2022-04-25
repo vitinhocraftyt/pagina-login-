@@ -1,0 +1,89 @@
+body{
+    background:url(../imgs/fundoescalacinza.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+.content-main{
+    background: url(../imgs/fundoescalacinza.jpg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 20%;
+    top: 10%;
+    transform: -10% -20% ;
+    box-shadow: 15px 15px 10px black;
+    padding: 40px;
+    width: 650px;
+}
+
+/* LOGO IMPROVISADA */
+.logo{
+    width: 120px;
+    height: 120px;
+    margin-top: 5%;
+}
+
+
+.inf{
+    font-size: 15px;
+    word-spacing: 10px;
+    color: rgba(0,0,0,0.8;)
+}    
+
+a{
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+a:hover{
+    color: rgba(144, 238, 144, 0.500);
+}
+
+input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    border-bottom: 2px solid rgba(0,0,0,0.6);
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition-duration:0.4s;
+    cursor: pointer;
+}
+
+input:focus{
+    border-bottom: 2px solid lightgreen;
+}
+
+input::placeholder{
+    color: whitesmoke;
+}
+
+input:hover{
+    border-bottom: 2px solid lightgreen;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+
+.btn{
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 30px;
+    color: whitesmoke;
+    width: 400px;
+}
+
+.btn:hover{
+    background: rgba(0,0,0, 0.8);
+    width: 470px;
+    transition-duration: 0.2s;
+}

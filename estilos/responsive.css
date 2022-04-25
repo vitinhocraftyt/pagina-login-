@@ -1,0 +1,18 @@
+@media (max-width:1000px){
+    .content-main{
+        position: absolute;
+        left: 0%;
+    }
+}
+@media (max-height:745px){
+        .content-main{
+            top: 0%;
+        }
+}
+
+@media (max-width:660px){
+    content-main{
+        position: absolute;
+        width: 400px;
+    }
+}
